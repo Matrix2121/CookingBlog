@@ -32,3 +32,25 @@ a {
   cursor: pointer;
   box-shadow: 0 10px 20px -8px rgba(0, 0, 0,.7);
 }
+
+
+.expandable-content {
+  display: none;
+  background-color: #f0f0f0;
+}
+
+header:hover .expandable-content {
+  display: block;
+  
+}
+
+header:hover .rectangle {
+  display: none;
+}
+
+.rectangle {
+  background-color: #0d6dfd00;  /* Set background color */
+  width: absolute;               /* Set width */
+  height: 88px;              /* Set height */  
+}
+
